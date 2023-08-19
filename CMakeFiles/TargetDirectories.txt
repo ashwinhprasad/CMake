@@ -1,0 +1,3 @@
+/home/ashwin-17068/code/cmake/CMakeFiles/simple_example.dir
+/home/ashwin-17068/code/cmake/CMakeFiles/edit_cache.dir
+/home/ashwin-17068/code/cmake/CMakeFiles/rebuild_cache.dir

@@ -1,10 +1,10 @@
 #include<iostream>
-#include<dummyHeader.hpp>
+#include "sampleLib.hpp"
 
 using namespace std;
 
 int main()
 {
-    dummyClass().getAge();
+    useLib();
     return 0;
 }

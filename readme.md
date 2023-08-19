@@ -1,11 +1,5 @@
-## Source Directory
-
-It contains all the source code used in the project and the CMakeLists file.
-
-## Build Directory
-
-cd into the build directory and execute "cmake <path-to-source-directory>". This will create the executable file for the project and all the cmake related files based on how the CMakeLists file is written.
-
-## Includes Directory
-
-Includes directory contains the additional libraries used in the project.
+- For using a custom library, create a directory for the library inside the source directory and create a includes directory for the custom library.
+- The includes directory will contain the header file which will contain the method declarations.
+- Anything outside the includes directory is like the source of the custom directory which will contain the definition for the methods in the header file
+- In the main.cpp outside the library, you can import the header file and start using the methods.
+- In the cmake file, you have to add the library and it's include directory. Once that is done, you also have to link the library to the project.

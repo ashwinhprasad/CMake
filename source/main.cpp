@@ -1,9 +1,10 @@
 #include<iostream>
+#include<dummyHeader.hpp>
 
 using namespace std;
 
 int main()
 {
-    cout << "Hello World" <<endl;
+    dummyClass().getAge();
     return 0;
 }

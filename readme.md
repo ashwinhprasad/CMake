@@ -1,5 +1,1 @@
-- For using a custom library, create a directory for the library inside the source directory and create a includes directory for the custom library.
-- The includes directory will contain the header file which will contain the method declarations.
-- Anything outside the includes directory is like the source of the custom directory which will contain the definition for the methods in the header file
-- In the main.cpp outside the library, you can import the header file and start using the methods.
-- In the cmake file, you have to add the library and it's include directory. Once that is done, you also have to link the library to the project.
+Each directory can have its own CMakeLists.txt file. this makes the maintenance of the CMakeLists file easier. The examples shown in this branch are pretty straightforward.
